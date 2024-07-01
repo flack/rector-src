@@ -22,7 +22,7 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\ReturnUnionTypeRector\
 
 final class MultiScalar
 {
-    public function run($value): bool|string
+    public function run($value): false|string
     {
         if ($value) {
             return false;

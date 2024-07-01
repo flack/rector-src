@@ -20,7 +20,7 @@ namespace Rector\Tests\Php80\Rector\Class_\ClassPropertyAssignToConstructorPromo
 
 final class AddDefaultFalseToBool
 {
-    public function __construct(public string|bool $name = false)
+    public function __construct(public string|false $name = false)
     {
     }
 }
